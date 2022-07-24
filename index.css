@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap');
+
+/* roboto-italic - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-italic.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('../fonts/roboto-v30-latin-italic.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/roboto-v30-latin-italic.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/roboto-v30-latin-italic.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/roboto-v30-latin-italic.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/roboto-v30-latin-italic.svg#Roboto') format('svg');
+    /* Legacy iOS */
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    background-color: rgb(198, 235, 238);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header*/
+.container {
+    max-width: 100%;
+    background-color: rgb(198, 235, 238);
+
+
+}
+
+.header {
+    height: 250px;
+    margin: 0 auto;
+    background-image: url(../img/header-background.jpg);
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 30px;
+    padding-left: 30px;
+}
+
+.avatar {
+    position: relative;
+    margin-top: -300px;
+    margin-left: -33px;
+}
+
+.avatar-pic {
+    margin-top: 40px;
+    margin-left: 20px;
+    position: absolute;
+    width: 250px;
+    border-radius: 100%;
+    border: 2px solid rgb(253, 175, 107);
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.navigation {
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    margin-right: 100px;
+
+}
+
+.navigation a {
+    margin-right: 30px;
+    color: antiquewhite;
+}
+
+.icon {
+    width: 50px;
+    margin-right: 5px;
+
+}
+
+.navigation a:hover {
+    font-size: 18px;
+    color: rgb(247, 142, 51);
+    transition: 0.5s;
+}
+
+.name {
+    font-family: 'Roboto' sans-serif;
+    margin-left: 320px;
+    font-weight: bold;
+    margin-left: 10 px;
+    color: antiquewhite;
+
+}
+
+.name h2 {
+    font-size: 45px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+}
+
+/* header*/
+
+/* main */
+
+.main {
+
+    margin: 0 auto;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/main-background.jpg);
+
+
+
+}
+
+.about {
+    padding-left: 30px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.myself {
+
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.myself p {
+    padding-top: 10px;
+    padding-right: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: rgb(45, 139, 226);
+    margin-top: 35px;
+}
+
+.title {
+    padding: 0 30px;
+    align-self: center;
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #1559a1;
+    margin-right: 90px;
+    background-color: rgb(253, 175, 107);
+    border-radius: 10px;
+}
+
+.education {
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container1 {
+    background-image: url(../img/main-background.jpg);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.education-list {
+    padding-top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: rgb(45, 139, 226);
+    margin-top: 35px;
+}
+
+.skills {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 850;
+    align-self: center;
+
+}
+
+.title-skills {
+    padding: 0 120px;
+    align-self: center;
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #1559a1;
+    background-color: rgb(253, 175, 107);
+    border-radius: 10px;
+}
+
+.skills-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: rgb(45, 139, 226);
+    margin-top: 35px;
+}
+
+.skills-list li {
+    margin-right: 110px;
+
+}
+
+.icon1 {
+    width: 40px;
+}
+
+.skills-section {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    border-top: 3px solid white;
+    margin: 30px 300px;
+
+}
+
+.project-section {
+
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    margin: 30px 300px;
+
+}
+
+
+.project-title {
+
+    margin: 35px auto;
+    padding: 0 140px;
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #1559a1;
+    background-color: rgb(253, 175, 107);
+    border-radius: 10px;
+
+}
+
+.project-list {
+    margin: 0px auto 35px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding-top: 10px;
+    padding-right: 120px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: rgb(45, 139, 226);
+    margin-top: 35px;
+
+}
+
+.project p:hover {
+    font-size: 35px;
+}
+
+.site {
+    width: 180px;
+    height: 140px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: 1px solid white;
+}
+
+.site:hover {
+    width: 220px;
+    height: 180px;
+}
+
+.project-list {
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.title-work {
+    width: 250px;
+    padding:0 20px;
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #1559a1;
+    background-color: rgb(253, 175, 107);
+    border-radius: 10px; 
+}
+.places {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: rgb(45, 139, 226);
+    margin-top: 35px;
+
+}
+.places th {
+    font-weight: bolder;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+.contact-section {
+    display: flex;
+    flex-direction: column;  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: rgb(45, 139, 226);
+    margin-top: 35px;
+}
+.title-contact {
+    width: 250px;
+    padding:0 20px;
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #1559a1;
+    background-color: rgb(253, 175, 107);
+    border-radius: 10px;  
+}
+.contact-section p {
+    margin-top: 35px;
+
+}
+.contact-section a {
+    text-decoration:underline;
+    color: rgb(45, 139, 226);
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    border-top: 3px solid white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: rgb(45, 139, 226);
+    margin-top: 35px;
+}
+.name-submit {
+    margin-top: 35px;
+    
+}
+.name-submit label {
+    padding-right: 20px;
+}
+.email {
+    margin-top: 25px;
+}
+.email label {
+    padding-right: 23px;
+}
+.message {
+    margin-top: 25px;
+}
+.message label {
+    padding-right: 37px;
+}
+.submit {
+    margin-top: 15px;
+}
+.submit input {
+    margin-bottom: 25px;
+    width: 120px;
+}
+/* main styles end */
+
+/* footer styles starts */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-image: url(../img/header-background.jpg);
+    padding: 25px 50px;
+}
+.footer p{
+    font-size: 25px;
+}
